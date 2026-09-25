@@ -1,0 +1,11 @@
+{
+  "name": "Profile README preview",
+  "install": "cd .cursor/preview && npm install && node render.mjs ../../README.md > /dev/null",
+  "terminals": [
+    {
+      "name": "readme-preview",
+      "command": "cd .cursor/preview && PREVIEW_FILE=../../README.md node serve.mjs"
+    }
+  ],
+  "ports": [4321]
+}
