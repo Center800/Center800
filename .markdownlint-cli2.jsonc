@@ -1,0 +1,9 @@
+{
+  // Profile README uses inline HTML comments and long template lines.
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD033": false,
+    "MD041": false
+  }
+}
